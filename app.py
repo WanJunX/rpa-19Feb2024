@@ -5,7 +5,7 @@ import time
 from openai import OpenAI
 
 openai_api_key=os.getenv("OPENAI_API_KEY")
-os.environ["REPLICATE_API_TOKEN"]="r8_BZFfplNwimXyXeL6diuHyv1ZRcuPccs2U0mTr"
+os.environ["REPLICATE_API_TOKEN"]="r8_XDlV2X9LDzfPYDc450KL8yjGebGoCVE454xIl"
 
 model = OpenAI(api_key=openai_api_key)
 
@@ -68,4 +68,4 @@ def end():
     return(render_template("end.html",r=r))
 
 if __name__ == "__main__":
-    app.run()
+    app.run()V
